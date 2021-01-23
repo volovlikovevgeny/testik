@@ -5,6 +5,7 @@ const SingleCountry = ({country}): ReactElement => {
     return (
         <div>
             {JSON.stringify(country)}
+            <div>Hello World</div>
         </div>
     );
 };
