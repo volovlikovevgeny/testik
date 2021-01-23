@@ -1,0 +1,23 @@
+.inputContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+
+    @media screen and(max-width:768px) {
+        flex-direction: column;
+    }
+
+    .counts {
+        font-size: 1.3rem;
+
+        @media screen and(max-width:768px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    .input {
+        display: flex;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.10);
+    }
+}
